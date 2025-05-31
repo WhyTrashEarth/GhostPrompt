@@ -55,5 +55,49 @@ How? By turning the *login interface itself* into part of the authentication pro
 
 ## Example Scenario
 
-An attacker gains access to:
+An attacker gains authentic credentials
+
+They reach the login screen.
+
+There are **5 login prompts.**  
+They guess the first one and enter the credentials.  
+It fails.  
+But they don't know why.
+
+**Meanwhile:**  
+- You receive an instant alert.  
+- Real login access is locked.  
+- They're chasing ghosts. 👻
+
+---
+
+## Why GhostPrompt?
+
+Most security systems fail **after** credentials are breached.  
+GhostPrompt aims to detect threats **at the moment of misuse**, even when the password is correct.
+
+It’s not about blocking access —  
+**it’s about breaking certainty.**
+
+---
+
+## License
+
+Apache 2.0 License  
+Protects open-source usage and prevents patent abuse.
+
+---
+
+## Status
+
+**Currently in development.**  
+Mockups, demos, and implementation guides coming soon.
+
+Want to contribute? Fork this repo and start building haunted login pages with us.
+
+---
+
+**Made with mischief by Alec (WhyTrashEarth)**  
+*“Just because the door opens… doesn’t mean you’re welcome.”*
+
 
